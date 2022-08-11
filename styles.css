@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/11/29/62027/plain-blue-10.jpg");
+    background-repeat: no-repeat;
+    
+
+}
+
+.title{
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgba(146, 242, 167, 0.779);
+    
+}
+
+.list{
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 480px;
+    padding: 10px 40px;
+    background: rgba(231, 239, 242, 0.311); 
+    
+}
+
+#listInput {
+width: 60%;
+    margin: 5px;
+    font: 20px/2 sans-serif;
+    padding-left: 4px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgba(249, 249, 248, 0.724);
+    border-radius: 10px;
+    width: 380px;
+    cursor: pointer;
+    
+
+}
+
+li:hover{
+    background-color: rgba(134, 240, 213, 0.774);
+}
+
+ul li:nth-child(odd):hover {
+    background-color: rgba(0, 255, 255, 0.235)
+  }
+  ul li:nth-child(odd) {
+    background-color: rgba(143, 149, 149, 0.235)
+  }
+ 
+footer{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 45%;
+}
+
+.btn{
+    width: 30%;
+    
+}
+
+.checked{
+    text-decoration: line-through;
+}
